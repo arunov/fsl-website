@@ -1,0 +1,53 @@
+.body {
+  /*background-color:#7F563C;*/
+  background-color:#FFFFFF;
+  /*color:#483C32;*/
+  color:#555555;
+  font-family:Helvetica;
+  height:100%;
+  width:100%;
+}
+
+a {
+  text-decoration:none;
+  color:#888888;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.thumbnail-img {
+  height:20%;
+  max-height:150px; /* Images appearing too large in firefox */
+}
+
+.person-img {
+  float:right;
+  height:100%;
+  max-height:800px; /* Image appearing too large in firefox */
+}
+
+.name-title {
+  font-weight:normal;
+  margin-bottom:0px;
+}
+
+/*.name-title-link:hover {
+  text-decoration:underline;
+}
+
+.name-title-link {
+  text-decoration:none;
+}*/
+
+.designation {
+  font-weight:normal;
+  margin-top:0px;
+  /*display:none;*/
+}
+
+.title {
+  font-weight:normal;
+}
+
