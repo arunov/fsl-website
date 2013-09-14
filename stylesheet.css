@@ -2,15 +2,16 @@
   /*background-color:#7F563C;*/
   background-color:#FFFFFF;
   /*color:#483C32;*/
-  color:#555555;
+  color:#000015;
   font-family:Helvetica;
-  height:100%;
-  width:100%;
+  height:95%;
+  width:95%;
+  margin:10px;
 }
 
 a {
   text-decoration:none;
-  color:#888888;
+  color:#000050;
 }
 
 a:hover {
@@ -18,36 +19,70 @@ a:hover {
 }
 
 .thumbnail-img {
-  height:20%;
-  max-height:150px; /* Images appearing too large in firefox */
+  height:150px;
 }
 
 .person-img {
-  float:right;
-  height:100%;
-  max-height:800px; /* Image appearing too large in firefox */
+  float:left;
+  height:200px;
+  margin-right:20px;
+  border-radius:20px;
+  /*border-right:outset 1px black;
+  border-bottom:outset 1px black;*/
 }
 
 .name-title {
   font-weight:normal;
   margin-bottom:0px;
+  color:white;
 }
 
-/*.name-title-link:hover {
+.name-title-link:hover {
   text-decoration:underline;
 }
 
 .name-title-link {
   text-decoration:none;
-}*/
+  color:white;
+  font-weight:bold;
+}
 
 .designation {
   font-weight:normal;
   margin-top:0px;
+  color: white;
   /*display:none;*/
 }
 
 .title {
   font-weight:normal;
+  clear:both;
+}
+
+.sloka {
+  font-weight:bold;
+  align:center;
+}
+
+.content {
+  margin-left:20px;
+  border-right:solid 2px #000015;
+  border-bottom:solid 1px #000015;
+  border-radius:20px;
+  padding:10px;
+}
+
+.text {
+  /*clear:both;*/
+  color:white;
+}
+
+.title-div {
+  background-color:#000015;
+  /*background-color: black;*/
+  border-radius:20px;
+  margin-bottom:10px;
+  padding:20px;
+  height: 200px;
 }
 
